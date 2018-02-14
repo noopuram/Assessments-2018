@@ -19,5 +19,3 @@ var steal = function(){
   // your logic here
   
 }
-
-4. 
