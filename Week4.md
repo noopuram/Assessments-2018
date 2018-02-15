@@ -49,10 +49,10 @@ puts "I am printing a random number #{x}"
 
 //Googled Answer
 
-#### 8. Ruby has a great community and tons of free resources to help you learn. Here are a few popular ones:
+#### 8. Ruby has a great community and tons of free resources to help you learn. Here is the long list of great resources: https://www.ruby-lang.org/en/documentation/. Below are a few popular ones:
 - Interactive Ruby tutorial (http://tryruby.org/levels/1/challenges/0)
 - Why's (poigniant) Guide to Ruby: comics, anecdotes, and microscopic canaries (http://poignant.guide/book/chapter-1.html)
 - Ruby in 20 min (https://www.ruby-lang.org/en/documentation/quickstart/)
-...AND there's a long list of EVEN MORE great resources here: https://www.ruby-lang.org/en/documentation/
+
 
 Choose one of these resources and go through the material (not for hours, only looking for around 10min of your time) then come back here and list a few new things you learned about Ruby.
