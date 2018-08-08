@@ -22,21 +22,14 @@ var names = ["mat" , "jack" , "pat" , "lee"];
 console.log(names[0]);
 console.log(names);
 
-// 4. Have the function AlphabetSoup(str) take the "str" parameter being passed and return a string with the letters in alphabetical order (ie. hello becomes ehllo). Assume no numbers or punctuation symbols will not be included in the parameter. 
-
-// Input:"hooplah"
-// Output:"ahhloop"
-
 function AlphabetSoup(str) {
-
-    // your code goes here  
-	
-	return str; 
+  var splitStrig = str.split("");
+  var reverseArray = splitStrig.reverse();
+  var Output = reverseArray.join("");
+  console.log(Output);
+  return Output;
 }
-
-// keep this function call here 
-
-AlphabetSoup(readline());   
+AlphabetSoup("hooplah");  
 
 var nums = [1,5,88,2,5,42,57,101]
 var nouns = ["ducks", "telephone booth", "the enterprise", "robots", "amazon", "eraser", "zafod", "a"]
