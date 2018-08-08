@@ -4,21 +4,18 @@
 
 // 3. Create an array with at least 4 items inside it. Show how to access two values from the array in two different ways.
 
-// 4. Have the function AlphabetSoup(str) take the "str" parameter being passed and return a string with the letters in alphabetical order (ie. hello becomes ehllo). Assume no numbers or punctuation symbols will not be included in the parameter. 
 
-// Input:"hooplah"
-// Output:"ahhloop"
+function AlphabetSuop(str) {
+  var splitString = str.split("");
+  var reverseArray = splitString.reverse();
+  var Output = reverseArray.join("");
+  console.log(Output);
+  return Output;
 
-function AlphabetSoup(str) {
 
-    // your code goes here  
-	
-	return str; 
 }
 
-// keep this function call here 
-
-AlphabetSoup(readline());   
+AlphabetSuop("hooplah");
 
 // 5. Given the arrays below, use a for loop to print one value from each array concatenated together. How would your code need to change to accomodate arrays of different lengths?
 
